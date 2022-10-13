@@ -1,38 +1,249 @@
+.About {
+  border: 3px solid #6e3c15;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 5%;
+}
+
 .App {
-  text-align: center;
+  background-color: #c4e2e2;
+  height: 100vh;
+  font-family: 'Patua One', cursive;
+  color:#6e3c15
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AltContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #c4e2e2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  font-family: 'Patua One', cursive;
+  color: white;
+  font-size: 17px;
+  height: 105px;
+  width: 105px;
+  border: none;
+  border-radius:  50%;
+  align-items: center;
+  flex-wrap: wrap;
+  aspect-ratio: 1 /1 ;
+  margin: 3px;
+}
+
+#Button__About {
+  background-color: #688052;
+}
+#Button__Gallery {
+  background-color: #FA9584;
+}
+#Button__Contact {
+  background-color: #F9AE54;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #6e3c15;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 4%;
+}
+
+.GalleryContainer {
+  border: 3px solid #6e3c15;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 5%;
+}
+
+.GalleryPic {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.MainBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MBSuperior {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+.MBButtons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#MainPic {
+  color: #6e3c15;
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 50%;
+  border: 5px solid white;
+  aspect-ratio: 1/1;
+}
+
+.MainPic__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #c1700e;
+}
+
+.PicsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
   color: white;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius:  50%;
+  align-items: center;
+  flex-wrap: wrap;
+  aspect-ratio: 1 /1 ;
+  margin: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+#specialthanks {
+  margin: 5px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Title {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40%;
+}
+
+@media screen and (min-width: 450px) {
+
+  .About {
+    max-width: 75%;
+    font-size: large;
   }
-  to {
-    transform: rotate(360deg);
+
+  .AboutDiv {
+    display: flex;
   }
+
+  button {
+    margin: 15px;
+    width: 125px;
+    height: 125px;
+    font-size: 22px;
+  }
+
+  .Contact {
+    font-size: larger;
+    line-height: 1.5;
+  }
+
+  .Content {
+    max-width: 75%;
+    font-size: larger;
+  }
+
+  .GalleryCaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GalleryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+
+  .GalleryPic {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .HardCoded {
+    max-width: 50%;
+  }
+
+  #funfact {
+    padding: 5px;
+  }
+
+  .Main {
+   display: flex;
+   flex-direction: row;
+    padding: 25px;
+    max-height: fit-content;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MBSuperior {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #MainPic {
+    color:#6e3c15;
+    max-height: 350px;
+    max-width: 350px;
+    aspect-ratio: 1 /1;
+  }
+
+  .SpecialThanksTitle {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .SpecialThanksSection {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .Title {
+    padding: 37%;
+  }
+
 }
