@@ -67,6 +67,12 @@ button {
   max-height: 150px;
 }
 
+h1 {
+  margin:auto;
+  text-align: center;
+  font-size: larger;
+}
+
 h4 {
   display: flex;
   justify-content: center;
@@ -95,11 +101,13 @@ h4 {
 .MBButtons {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #MainPic {
   color: #6e3c15;
-  max-width: 100%;
+  max-width: 200px;
   max-height: 80vh;
   border-radius: 50%;
   border: 5px solid white;
@@ -110,6 +118,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-size: 40px;
   font-weight: bold;
   color: #c1700e;
@@ -183,15 +192,19 @@ button {
 
   .GalleryContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: larger;
   }
 
-  .GalleryPic {
+  #GalleryPic {
     max-width: 300px;
     max-height: 300px;
+  }
+
+  h1 {
+    font-size: 70px;
   }
 
   .HardCoded {

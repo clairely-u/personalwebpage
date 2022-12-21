@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from './Main';
+import {Modal} from "./Modal"
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(true);
+  };
   return (
     <div className="App">
       <Main/>
