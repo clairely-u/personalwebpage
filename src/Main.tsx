@@ -40,20 +40,19 @@ export default function Main() {
             <div className="AboutDiv">
             <div className="HardCoded">
             <h2>Howdy, what's up!</h2>
-                <p>i am claire</p>
-                <p>it's quite a time</p>
-                <p>sorry this page is like, under construction rn</p>
+                <p>Thanks for stopping by! My name is Claire Utrecht, I'm 29 years old and living in the beautiful city of Grand Rapids, MI.</p>
+                <p>I have a handful of years of experience with coding including JavaScript, HTML, CSS, React, and more.</p>
+                <p>I've also worked in Customer Service, food service, retail and communications.</p>
             </div>
             <div className="FunFacts">
                 <h3>
-                   here are some fast fun facts about me?
+                   here are some fast fun facts!
                 </h3>
                 <ul>
-                    <li id="funfact"> 550+ day streak in Japanese DuoLingo as of 12/21/2022</li>
-                    <li id="funfact">i play some guitar, not extremely well</li>
-                    <li id="funfact">like to cook i guess</li>
-                    <li id="funfact">i have a bunch of plants and like them a lot</li>
-                    <li id="funfact">apparently i'm trying coding again too</li>
+                    <li id="funfact"> 700+ day streak in Japanese DuoLingo as of 4/25/2023</li>
+                    <li id="funfact">I play some guitar and bass</li>
+                    <li id="funfact">Owner of 21 house plants and counting</li>
+                    <li id="funfact">I enjoy cooking, running and reading and painting!</li>
                 </ul>
             </div>
             </div>
