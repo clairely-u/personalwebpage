@@ -12,15 +12,23 @@ export default [
         alt: "a cat mug"
     },
     {
-        src: "mysteryflowers.jpg",
-        alt: "some pink and yellow gradiented flowers"
-    },
-    {
         src: "pilea.jpg",
         alt: "a new sprout on my pilea"
     },
     {
         src: "rockbeach.jpg",
         alt: "the shoreline at pilgrim haven rock beach"
+    },
+    {
+        src: "boobiecat.jpg",
+        alt: "a good friends cat"
+    },
+    {
+        src: "curacao.jpg",
+        alt: "the beach in curacao"
+    },
+    {
+        src: "housepainting.jpg",
+        alt: "a recent painting of mine"
     }
 ]

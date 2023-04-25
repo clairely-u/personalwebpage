@@ -6,5 +6,3 @@ export default function GalleryPic ({ src, alt} : {src: string; alt: string}) {
     )
 }
 
-// The modal is appearing outside of the main div.
-// probably goint to somehow need to use div here.

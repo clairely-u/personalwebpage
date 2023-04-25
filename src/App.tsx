@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Main/>
-      <h4>claire m. utrecht 2022 🤍</h4>
+      <h4>claire m. utrecht 2023 🤍</h4>
     </div>
   );
 }
